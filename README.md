@@ -1,16 +1,30 @@
+<div align="center">
+
 # Mohammad Jahromi
+### Applied AI · Computer Vision · Spatial Computing
 
-### Applied AI · Computer vision · Full-stack products
+**From pixels and point clouds to products people can use.**
 
-I build software that connects AI with practical workflows: discovering local businesses, planning better spaces, and reviewing dental images, matching 3D scenes, and creating brain-controlled games.
+I build AI-powered tools for local discovery, space design, dental imaging, 3D localization, and brain-controlled interaction.
 
-[GitHub](https://github.com/mmjahromi) · [LinkedIn](https://www.linkedin.com/in/mohammadjahromi/) · [Try Perko](https://canpoun.vercel.app)
+[LinkedIn](https://www.linkedin.com/in/mohammadjahromi/) &nbsp; / &nbsp; [Live app](https://canpoun.vercel.app) &nbsp; / &nbsp; [Repositories](https://github.com/mmjahromi?tab=repositories)
+
+**5 featured projects · Team MindCTRL: 2 BCI Game Jam prizes**
+
+</div>
 
 ---
 
-## Selected projects
+## Selected work
+
+[Perko](#01--perko) · [Spacewright](#02--spacewright) · [Denai](#03--denai) · [3D Matching](#04--3d-stereo-scene-matching) · [MindCTRL](#05--mindctrl-opera-of-blobs)
+
+<sub>AI-generated project cover illustrations; these are not application screenshots or clinical results.</sub>
 
 ### 01 — Perko
+
+![Illustration of local shops and map pins](assets/perko.jpg)
+
 **Local discovery, deals, events, and flyers in one place.**
 
 Perko brings nearby businesses and offers into a searchable, map-based experience. People can explore local categories, discover events, and search retailer flyers without switching between separate tools.
@@ -29,6 +43,9 @@ Perko brings nearby businesses and offers into a searchable, map-based experienc
 ---
 
 ### 02 — Spacewright
+
+![Illustration of a staged living room](assets/spacewright.jpg)
+
 **AI-assisted home staging and space planning.**
 
 Spacewright organizes a home, office, salon, or clinic into a space project with individual zones. Users upload photos, discuss their goals, and compare budget, balanced, and premium design options.
@@ -50,6 +67,9 @@ Spacewright organizes a home, office, salon, or clinic into a space project with
 ---
 
 ### 03 — Denai
+
+![Synthetic dental imaging illustration](assets/denai.jpg)
+
 **A dental X-ray and CBCT analysis pipeline.**
 
 Denai turns dental images into structured findings and review artifacts. It combines image preprocessing, pluggable detection, anatomy segmentation, and reporting in a reproducible Python workflow.
@@ -70,6 +90,9 @@ Denai turns dental images into structured findings and review artifacts. It comb
 ---
 
 ### 04 — 3D Stereo Scene Matching
+
+![Illustration of aligned cyan and orange point clouds](assets/scene-matching.jpg)
+
 **Point-cloud registration and outdoor map localization.**
 
 A modular pipeline for aligning noisy, sparse stereo-generated and LiDAR point clouds, and locating a query scan within a larger reference map.
@@ -87,6 +110,9 @@ A modular pipeline for aligning noisy, sparse stereo-generated and LiDAR point c
 ---
 
 ### 05 — MindCTRL: Opera of Blobs
+
+![Illustration of four musical blob characters](assets/mindctrl.jpg)
+
 **A brain-controlled musical game — winner of two prizes at the 2026 BCI Game Jam.**
 
 Developed with **Team MindCTRL** at the 2026 BCI Game Jam in Calgary, Canada. Four colourful blob characters form a live orchestra: P300 brain-computer interface input selects their notes and controls playback.
