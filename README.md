@@ -2,7 +2,7 @@
 
 ### Applied AI · Computer vision · Full-stack products
 
-I build software that connects AI with practical workflows: discovering local businesses, planning better spaces, and reviewing dental images.
+I build software that connects AI with practical workflows: discovering local businesses, planning better spaces, and reviewing dental images, matching 3D scenes, and creating brain-controlled games.
 
 [GitHub](https://github.com/mmjahromi) · [Try Perko](https://canpoun.vercel.app)
 
@@ -69,6 +69,42 @@ Denai turns dental images into structured findings and review artifacts. It comb
 
 ---
 
+### 04 — 3D Stereo Scene Matching
+**Point-cloud registration and outdoor map localization.**
+
+A modular pipeline for aligning noisy, sparse stereo-generated and LiDAR point clouds, and locating a query scan within a larger reference map.
+
+- Configurable FPFH feature matching, RANSAC, Fast Global Registration, and multiscale Generalized ICP.
+- Coordinate centering and float64 processing for large UTM/ENU coordinates.
+- Map tiling, height-profile candidate screening, and localization uncertainty estimation.
+- Ground-truth evaluation with rotation/translation errors, inlier ratio, and optional Chamfer distance.
+- CSV reports and Open3D alignment visualization, with optional learned registration backends.
+
+**Built with:** Python, Open3D, NumPy, SciPy, pandas, and YAML configuration.
+
+[Project repository →](https://github.com/mmjahromi/3D_Stereo_Scene_Matching) *(private; access required)*
+
+---
+
+### 05 — MindCTRL: Opera of Blobs
+**A brain-controlled musical game — winner of two prizes at the 2026 BCI Game Jam.**
+
+Developed with **Team MindCTRL** at the 2026 BCI Game Jam in Calgary, Canada. Four colourful blob characters form a live orchestra: P300 brain-computer interface input selects their notes and controls playback.
+
+- P300 stimulus selection connects BCI predictions to musical game actions.
+- Four characters with four pitch levels each, plus orchestra playback control.
+- Unity game flow, animated character feedback, and audio interaction.
+- Keyboard mock mode enables development and play without BCI hardware.
+- Integration with BCI Essentials and Lab Streaming Layer.
+
+**Built with:** Unity 6, C#, Python, BCI Essentials, and Lab Streaming Layer.
+
+**Recognition:** Team MindCTRL won **two prizes** at the 2026 BCI Game Jam.
+
+[Project repository →](https://github.com/mmjahromi/2026_BCI_gamejam_MindCTRL) *(private; access required)*
+
+---
+
 ## How I approach engineering
 
 - **Build around a workflow.** Connect models to usable interfaces, APIs, and outputs.
@@ -83,6 +119,7 @@ Denai turns dental images into structured findings and review artifacts. It comb
 | Product engineering | TypeScript, React, Next.js, Express, REST APIs |
 | Applied AI | Ollama, vision-language models, streaming inference, caching |
 | Computer vision | Python, OpenCV, YOLO, segmentation, DICOM |
+| Spatial computing and BCI | Point-cloud registration, outdoor localization, Unity, C#, P300 interaction |
 | Data and reliability | SQLite/libSQL, schema validation, dataset integrity, testing |
 
 Browse my [public repositories](https://github.com/mmjahromi?tab=repositories) for more experiments in AI, computer vision, and software engineering.
