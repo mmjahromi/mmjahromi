@@ -4,7 +4,7 @@
 
 I build software that connects AI with practical workflows: discovering local businesses, planning better spaces, and reviewing dental images, matching 3D scenes, and creating brain-controlled games.
 
-[GitHub](https://github.com/mmjahromi) · [Try Perko](https://canpoun.vercel.app)
+[GitHub](https://github.com/mmjahromi) · [LinkedIn](https://www.linkedin.com/in/mohammadjahromi/) · [Try Perko](https://canpoun.vercel.app)
 
 ---
 
